@@ -457,20 +457,7 @@ namespace Project2
 		
 
 		std::ifstream input("Input.txt");
-		if (!input.is_open())
-		{
-		//	if (MessageBox::Show("Error", "Attention!") == Windows::Forms::DialogResult::Yes) {
-				Application::Exit();
-			//}
-		}
-		// если не открылся
-	//	else if (input.peek() == EOF) Application::Exit(); // если первый символ конец файла
-	//	{
-		//	if (MessageBox::Show("Error", "Attention!") == Windows::Forms::DialogResult::Yes) {
-		//		Application::Exit();
-			//}
-		//}
-
+		
 		int  colsCount;
 		input >> colsCount;
 
