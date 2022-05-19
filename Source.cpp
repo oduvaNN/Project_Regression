@@ -2,8 +2,6 @@
 #include <cmath>
 #include <fstream>
 
-#define K 2
-#define RowsCount 2
 #define CountOfModels 6
 #define Tstudent 3.5
 
